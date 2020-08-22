@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<center>
+<div id="form">
+    <fieldset>
+        <legend>Sign Up</legend>
+        <label>First Name<br/>
+            <input type="text" placeholder="First Name" id="first-name"/></label><br/> <br>
+
+        <label>Last Name<br/>
+            <input type="text" placeholder="Last Name" id="last-name"/></label><br/> <br>
+
+        <label>Phone Number<br/>
+            <input type="number" placeholder="Phone Number" id="Phone"/></label> <br/> <br>
+
+        <label>Password<br/>
+            <input type="password" placeholder="Password" id="pass"/></label> <br/> <br>
+
+        <label>Email<br/>
+            <input type="email" placeholder="Email" id="em"/></label> <br/> <br>
+
+        <button onclick="signUp()">Sign Up</button>
+        <br> <br>
+        <button onclick="logInPage()">Sign In</button>
+
+
+    </fieldset>
+</div>
+
+<div id="userData">
+    <h1><i><u>User Data</u></i></h1>
+
+    <p id="firstName"></p>
+
+    <p id="lastName"></p>
+
+    <p id="ph"></p>
+
+    <p id="pas"></p>
+
+    <p id="email"></p>
+    <button onclick="back()">Back</button>
+</div>
+
+
+<div id="login">
+    <fieldset>
+        <legend>Sing In</legend>
+
+        <label>Password:<br/>
+            <input type="password" placeholder="Password" id="login-pass"/></label> <br/> <br>
+
+            <label>Email:<br/>
+            <input type="email" placeholder="Email" id="login-email"/></label> <br/> <br>
+<button onclick="logIn()">Sign In</button><br><br>
+        <button onclick="back()">Sign up</button>
+
+    </fieldset>
+</div>
+</center>
+</body>
+<script src="app.js"></script>
+</html>

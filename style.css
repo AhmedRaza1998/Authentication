@@ -1,0 +1,43 @@
+input {
+    font-style: oblique;
+}
+
+legend {
+    font-family: sans-serif;
+    color: blue;
+}
+
+label {
+    color: red;
+}
+
+button {
+    font-family: inherit;
+    width: 140px;
+    color: blue;
+    height: 32px;
+}
+
+fieldset {
+    width: 100px;
+}
+
+#userData {
+    display: none;
+}
+
+h1 {
+    font-family: inherit;
+    color: blue;
+}
+
+p {
+    font-family: cursive;
+}
+
+#login {
+    display: none;
+}
+fieldset>p{
+    text-align-last: left;
+}
